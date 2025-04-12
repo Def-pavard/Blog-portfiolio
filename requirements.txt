@@ -1,0 +1,5 @@
+Django>=4.2,<5.0         # Framework principal
+gunicorn                 # Serveur WSGI pour Render (production)
+whitenoise               # Gestion des fichiers statiques
+psycopg2-binary          # Connexion à PostgreSQL (Render utilise PostgreSQL par défaut)
+python-dotenv            # Gestion des variables d'environnement (optionnel mais utile)
